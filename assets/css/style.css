@@ -383,7 +383,18 @@ color: #165bdc!important;
 }
 .header-social a {
   margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: .3s;
+  padding: 3px;
+
 }
+.header-social a:hover{
+background: #fff;
+color: #365ba0;
+}
+
 .navbar {
 	padding-right: 0;
 }
@@ -1519,7 +1530,7 @@ color: #165bdc!important;
 /* Footer Area */
 .single-footer ul li a:hover,
 .copyright ul li a:hover {
-	color: #635CDB;
+	color: #365ba0;
 }
 .footer-area {
 	background-image: url("../img/footer-bg.png");
@@ -1631,8 +1642,18 @@ color: #165bdc!important;
 
 .copyright ul li a {
 	color: #fff;
-	padding: 0px 10px;
 	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	padding-top: 6px;
+	text-align: center;
+	font-size: 17px;
+	transition: .3s;
+}
+.copyright ul li a:hover{
+	color: #fff;
+	background:#365ba0;
 }
 
 .breadcumb-area {
