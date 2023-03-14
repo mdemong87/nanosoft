@@ -5,6 +5,25 @@
 	margin-bottom: 20px;
 	
 	}
+	.welcome{
+		grid-template-columns: 1fr;
+	}
+	.vission{
+		grid-template-columns: 1fr;
+		padding-top: 0px;
+	}
+	.imgeWrp{
+		display: none;
+	}
+	.qq{
+		display: block;
+	}
+	.headAbout{
+		font-weight: normal!important;
+	}
+	.qqbtn{
+		display: none!important;
+	}
 }
 
 

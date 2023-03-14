@@ -1803,3 +1803,48 @@ padding: 20px 15px;
 }
 
   /* css for product page end here */
+
+
+
+
+
+  /* about css start here */
+
+.welcome{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	padding-top: 50px;
+}
+
+
+
+.vission{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+
+.aboutIMge{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+.imgeWrpfrist{
+	
+text-align: right;
+}
+
+.headAbout{
+	font-weight: bold!important;
+	font-size: 18px!important;
+}
+
+.qq{
+	display: none;
+}
+
+  /* about css end here */
