@@ -1446,26 +1446,33 @@ color: #165bdc!important;
   }
 /* Contact Area */
 .contact-form input[type="submit"] {
-	background-color: #635CDB;
+	background-color: #365ba0;
 	border: 0px;
 	color: #fff;
 	cursor: pointer;
+	width: 90%;
+	margin: auto;
+	border-radius: 10px;
+
 }
 .contact-form input,
 .contact-form textarea {
-	width: 100%;
+	width: 90%;
 	border: 1px solid #eee;
 	text-transform: capitalize;
 	padding: 10px;
 	margin-bottom: 10px;
 	font-weight: 300;
+	margin: auto;
 }
 .contact-address {
 	margin-bottom: 50px;
 }
 
+
+
 .contact-address i.fa {
-	background-color: #635CDB;
+	background-color: #365ba0;
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
