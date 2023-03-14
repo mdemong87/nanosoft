@@ -16,6 +16,8 @@
       <link href="assets/css/magnific-popup.css" rel="stylesheet">
       <!-- Owl Carousel Css -->
       <link href="assets/css/owl.carousel.css" rel="stylesheet">
+      <!-- animation cdn  -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <!-- Main Css -->
       <link href="assets/css/style.css" rel="stylesheet">
       <!-- Responsive Css -->
@@ -49,12 +51,12 @@
             <div class="row">
                <div class="col-xl-12">
                   <nav class="navbar navbar-expand-md navbar-light">
-                     <a class="navbar-brand" href="#"><img class="logo" src="assets/img/Logo.png" alt="" /></a>
+                     <a data-aos="zoom-in-down" class="navbar-brand" href="#"><img class="logo" src="assets/img/Logo.png" alt="" /></a>
                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon"></span>
                      </button>
                      <div class="collapse navbar-collapse ml-auto mainmenu" id="navbarNav">
-                        <ul class="navbar-nav ml-auto">
+                        <ul data-aos="zoom-in-down" class="navbar-nav ml-auto">
                            <li><a class="navItem" href="index.html">Home</a></li>
                            <li><a class="navItem" href="about.html">About</a></li>
                            <li><a class="navItem" href="services.html">Services</a></li>
@@ -129,40 +131,40 @@
       <section class="about-area pt-100 pb-100" id="about">
          <div class="container">
             <div class="row section-title">
-               <div class="col-md-6 text-right">
+               <div data-aos="zoom-in-right" class="col-md-6 text-right">
                   <h3><span>who we are?</span> about us</h3>
                </div>
-               <div class="col-md-6">
+               <div data-aos="zoom-in-left" class="col-md-6">
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry.d </p>
                </div>
             </div>
             <div class="row">
                <div class="col-md-7">
                   <div class="about">
-                     <div class="page-title">
+                     <div data-aos="zoom-in-right" class="page-title">
                         <h4>welcome to Nanosoft</h4>
                      </div>
-                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                     <pvdata-aos="zoom-in-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio maxime laborum delectus aliquam ipsum itaque voluptatem non reiciendis aliquid totam facere, tempora iure iusto adipisci doloremque in, amet, alias nostrum. Explicabo reprehenderit.</p>
                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
-                     <a href="#" class="box-btn">read more <i class="fa fa-angle-double-right"></i></a>
+                     <a data-aos="zoom-out-up" href="#" class="box-btn">read more <i class="fa fa-angle-double-right"></i></a>
                   </div>
                </div>
                <div class="col-md-5">
                   <div class="single_about">
-                     <i class="fa fa-laptop"></i>
-                     <h4>our mission</h4>
-                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                     <i data-aos="zoom-out-up" class="fa fa-laptop"></i>
+                     <h4 data-aos="zoom-in-left">our mission</h4>
+                     <p data-aos="zoom-in-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                   </div>
                   <div class="single_about">
-                     <i class="fa fa-user"></i>
-                     <h4>our vission</h4>
-                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                     <i data-aos="zoom-out-up" class="fa fa-user"></i>
+                     <h4 data-aos="zoom-in-left">our vission</h4>
+                     <p data-aos="zoom-in-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                   </div>
                   <div class="single_about">
-                     <i class="fa fa-pencil"></i>
-                     <h4>our history</h4>
-                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                     <i data-aos="zoom-out-up" class="fa fa-pencil"></i>
+                     <h4 data-aos="zoom-in-left">our history</h4>
+                     <p data-aos="zoom-in-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                   </div>
                </div>
             </div>
@@ -174,7 +176,9 @@
          <div class="container">
             <div class="row pt-100 pb-100">
                <div class="col-md-6">
-                  <div class="faq">
+                  <div data-aos="flip-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000" class="faq">
                      <div class="page-title">
                         <h4>faq</h4>
                      </div>
@@ -229,7 +233,9 @@
                   </div>
                </div>
                <div class="col-md-6">
-                  <div class="skills">
+                  <div data-aos="flip-right"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000" class="skills">
                      <div class="page-title">
                         <h4>our skills</h4>
                      </div>
@@ -259,15 +265,15 @@
       <section class="services-area pt-100 pb-50" id="services">
          <div class="container">
             <div class="row section-title">
-               <div class="col-md-6 text-right">
+               <div data-aos="zoom-in-right" class="col-md-6 text-right">
                   <h3><span>who we are?</span> our services</h3>
                </div>
-               <div class="col-md-6">
+               <div data-aos="zoom-in-left" class="col-md-6">
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry.d </p>
                </div>
             </div>
             <div class="row">
-               <div class="col-lg-4 col-md-6">
+               <div data-aos="zoom-in" class="col-lg-4 col-md-6">
                   <!-- Single Service -->
                   <div class="single-service">
                      <i class="fa fa-laptop"></i>
@@ -275,7 +281,7 @@
                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                   </div>
                </div>
-               <div class="col-lg-4 col-md-6">
+               <div data-aos="zoom-in" class="col-lg-4 col-md-6">
                   <!-- Single Service -->
                   <div class="single-service">
                      <i class="fa fa-gears"></i>
@@ -283,7 +289,7 @@
                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                   </div>
                </div>
-               <div class="col-lg-4 col-md-6">
+               <div data-aos="zoom-in" class="col-lg-4 col-md-6">
                   <!-- Single Service -->
                   <div class="single-service">
                      <i class="fa fa-mobile"></i>
@@ -291,7 +297,7 @@
                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                   </div>
                </div>
-               <div class="col-lg-4 col-md-6">
+               <div data-aos="zoom-in" class="col-lg-4 col-md-6">
                   <!-- Single Service -->
                   <div class="single-service">
                      <i class="fa fa-magic"></i>
@@ -299,7 +305,7 @@
                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                   </div>
                </div>
-               <div class="col-lg-4 col-md-6">
+               <div data-aos="zoom-in" class="col-lg-4 col-md-6">
                   <!-- Single Service -->
                   <div class="single-service">
                      <i class="fa fa-pencil"></i>
@@ -307,7 +313,7 @@
                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                   </div>
                </div>
-               <div class="col-lg-4 col-md-6">
+               <div data-aos="zoom-in" class="col-lg-4 col-md-6">
                   <!-- Single Service -->
                   <div class="single-service">
                      <i class="fa fa-fa fa-lightbulb-o"></i>
@@ -327,40 +333,40 @@
                <div class="col-md-3">
                   <div class="single-counter">
                      <div>
-                        <i class="fa fa-user"></i>
+                        <i data-aos="fade-down" class="fa fa-user"></i>
                      <span class="counter">567</span>
                      </div>
-                     <h4>customers</h4>
+                     <h4 data-aos="fade-up">customers</h4>
                   </div>
                </div>
 
                <div class="col-md-3">
                   <div class="single-counter">
                      <div>
-                        <i class="fa fa-code"></i>
+                        <i data-aos="fade-down" class="fa fa-code"></i>
                      <span class="counter">56755</span>
                      </div>
-                     <h4>line of codes</h4>
+                     <h4 data-aos="fade-up">line of codes</h4>
                   </div>
                </div>
 
                <div class="col-md-3">
                   <div class="single-counter">
                      <div>
-                        <i class="fa fa-file"></i>
+                        <i data-aos="fade-down" class="fa fa-file"></i>
                      <span class="counter">867</span>
                      </div>
-                     <h4>users</h4>
+                     <h4 data-aos="fade-up">users</h4>
                   </div>
                </div>
 
                <div class="col-md-3">
                   <div class="single-counter">
                      <div>
-                        <i class="fa fa-coffee"></i>
+                        <i data-aos="fade-down" class="fa fa-coffee"></i>
                      <span class="counter">367</span>
                      </div>
-                     <h4>cup of coffees</h4>
+                     <h4 data-aos="fade-down">cup of coffees</h4>
                   </div>
                </div>
          
@@ -635,6 +641,10 @@
 </footer>
 <!-- Footer Area End -->
 <!-- Main JS -->
+
+<!-- animation cdn -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 <script src="assets/js/jquery.min.js"></script>
 <!-- Popper JS -->
 <script src="assets/js/popper.min.js"></script>
