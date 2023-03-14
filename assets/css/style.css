@@ -1455,15 +1455,21 @@ color: #165bdc!important;
 	border-radius: 10px;
 
 }
+
 .contact-form input,
 .contact-form textarea {
 	width: 90%;
-	border: 1px solid #eee;
+	border: 1px solid #365ba041;
 	text-transform: capitalize;
 	padding: 10px;
-	margin-bottom: 10px;
 	font-weight: 300;
 	margin: auto;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.contact-form textarea{
+	margin-bottom: 20px;
 }
 .contact-address {
 	margin-bottom: 50px;
