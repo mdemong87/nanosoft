@@ -2028,5 +2028,9 @@ a.box-btn:hover i.fa {
 	background-color: #365ba0;
 }
 
+.table {
+	margin: 0px !important;
+	padding: 0px !important;
+}
 
 /* cart css end here */
