@@ -1949,6 +1949,17 @@ a.box-btn:hover i.fa {
 	margin-top: 20px;
 }
 
+.tidis {
+	/* border: 1px solid red; */
+	height: 160px;
+	overflow: scroll;
+
+}
+
+.tidis::-webkit-scrollbar {
+	display: none;
+}
+
 .productBtn {
 	width: 100%;
 	text-align: center;
