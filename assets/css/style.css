@@ -1659,10 +1659,17 @@ a.box-btn:hover i.fa {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
 }
 
-.single-footer.footer-logo h3 {
+.single-footer.footer-logo>div>h3 {
 	text-transform: uppercase;
 	font-weight: 700;
 	margin: 20px 0;
+}
+
+.footer-logo {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	grid-gap: 20px;
 }
 
 .single-footer h4 {
@@ -1787,7 +1794,6 @@ a.box-btn:hover i.fa {
 
 .breadcumb:hover {
 	color: #fff;
-	color: #365ba0;
 }
 
 .breadcumb h4 {
@@ -2045,3 +2051,20 @@ a.box-btn:hover i.fa {
 }
 
 /* cart css end here */
+
+
+.forPolicy>div {
+
+	margin: 30px 0px;
+}
+
+.forPolicy>div>h5 {
+	margin-bottom: 15px;
+	color: rgb(54, 54, 54);
+	text-transform: uppercase;
+
+}
+
+.forPolicy>div>p {
+	margin: 30px 0px;
+}
