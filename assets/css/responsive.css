@@ -27,6 +27,11 @@
 		font-weight: normal !important;
 	}
 
+	.pl-5 {
+		padding-left: 17px !important;
+
+	}
+
 	.qqbtn {
 		display: none !important;
 	}
