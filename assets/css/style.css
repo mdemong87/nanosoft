@@ -634,10 +634,16 @@ a.box-btn:hover i.fa {
 	padding-bottom: 10px;
 }
 
+.card-header h5 button {
+	overflow-x: hidden;
+}
+
 .card-header h5 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	grid-gap: 30px;
+
 }
 
 .fa-plus {
@@ -839,6 +845,7 @@ a.box-btn:hover i.fa {
 	box-shadow: 0px 10px 30px 0px rgba(205, 205, 205, 0.33);
 	transition: .5s;
 	border-bottom: 3px solid transparent;
+	height: 280px;
 }
 
 .single-service i.fa {
@@ -2069,4 +2076,9 @@ a.box-btn:hover i.fa {
 
 .forPolicy>div>p {
 	margin: 30px 0px;
+}
+
+.offerSecton {
+	background: #365ba0;
+	padding: 50px 0px;
 }
